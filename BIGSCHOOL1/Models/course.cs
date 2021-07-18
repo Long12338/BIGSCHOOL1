@@ -9,7 +9,7 @@ namespace BIGSCHOOL1.Models
     public class course
     {
         public int Id { get; set; }
-
+        public bool IsCancel { get; set; }
         public ApplicationUser Lecturer { get; set; }
         [Required]
         public string LecturerId { get; set; }
